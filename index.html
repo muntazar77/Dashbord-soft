@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashbord</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/brands.min.css">
+    
+</head>
+
+<body>
+    <!-- <nav class=" Center-Container  Absolute-Center" id="mySidebar">
+        <div class=" ">
+          <span onclick="closeSidebar()" class="w3-button w3-display-topright w3-large">X</span>
+          <br>
+          <div class="w3-padding w3-center">
+            <img class="w3-circle" src="img_avatar.jpg" alt="avatar" style="width:75%">
+          </div>
+        </div>
+        <a class="w3-bar-item w3-button" href="#">Movies</a>
+        <a class="w3-bar-item w3-button" href="#">Friends</a>
+        <a class="w3-bar-item w3-button" href="#">Messages</a>
+        </nav> -->
+
+
+  
+  <!-- Modal -->
+  <div class="cover" id="mySidebar">
+    <div class="modal  modal-dialog-centered" >
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+          <button  onclick="closeSidebar()">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+
+        <div class="modal-body">
+            <!-- body -->
+            <div class="container p-4">
+                <div class="neumorphic-card mx-auto">
+                  <label class="modal-label" for="login__input">Name :</label>
+                  <input class="modal-input" id="login__input" type="text" />
+                  <label class="modal-label" for="password_input">Password :</label>
+                  <input class="modal-input" id="password_input" type="text" /><br><br>
+                  <button type="button">Log in</button>
+                </div>
+              </div>
+
+        </div>
+        <div class="modal-footer">
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="minet">
+
+        <div class="menu">
+            <h3 class="logo">Logo</h3>
+            <div class="linkes">
+                <a href="#">Dashbord</a>
+                <a href="#">Usrts</a>
+                <a href="#">posts</a>
+                <a href="#">Steing</a>
+
+                <p>Disghen by Montazar </p>
+            </div>
+        </div>
+
+        <div class="body">
+            <!-- Title  Page-->
+            <div class="title-page">
+                <h2>Welcom to my Web</h2>
+                <img src="1.jpg" alt="" width="50" height="50" srcset="">
+            </div>
+
+            <!-- Cards-->
+            <div class="cards">
+
+                <div class="card">
+                    <div class="icon">
+                        <i class="fas fa-users fa-3x"></i>
+                    </div>
+                    <div>
+                        <span>Users</span>
+                        <h1>950</h1>
+                        <p>Out ot 10</p>
+                    </div>
+                </div>
+
+                <!-- card 2 -->
+                <div class="card">
+                    <div class="icon">
+                        <i class="fab fa-usps fa-3x"></i>
+                    </div>
+                    <div>
+                        <span>Posts</span>
+                        <h1>550</h1>
+                        <p>Out ot 10</p>
+                    </div>
+                </div>
+
+
+                <!-- Card 3 -->
+                <div class="card">
+                    <div class="icon">
+                        <i class="fas fa-bookmark fa-3x"></i>
+                    </div>
+                    <div>
+                        <span>Saves</span>
+                        <h1>350</h1>
+                        <p>Out ot 10</p>
+                    </div>
+
+                </div>
+
+                <!-- card 4 -->
+                <div class="card">
+                    <div class="icon">
+                        <i class="fas fa-cart-arrow-down fa-3x"></i>
+                    </div>
+                    <div>
+                         <span>Down</span>
+                        <h1>950</h1>
+                        <p>Out ot 10</p>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+<!-- Mode  -->
+
+
+
+            <!-- table -->
+                <div class="table">
+                           <div class="head">
+                            <h2>Table User</h2>
+                            <!-- <button type="submit" class="my-5 btn neumorphic-btn">Users</button> -->
+                            <button onclick="openSidebar()">&#9776;</button>
+                           </div>
+
+                    <table>
+                            <th>Company</th>
+                            <th>Contact</th>
+                            <th>Country</th> 
+                        
+                        <tr>
+                            <td>Alfreds Futterkiste</td>
+                            <td>Maria Anders</td>
+                            <td>Germany</td>
+                        </tr>
+                        <tr>
+                            <td>Berglunds snabbköp</td>
+                            <td>Christina Berglund</td>
+                            <td>Sweden</td>
+                        </tr>
+                        <tr>
+                            <td>Centro comercial Moctezuma</td>
+                            <td>Francisco Chang</td>
+                            <td>Mexico</td>
+                        </tr>
+                        <tr>
+                            <td>Ernst Handel</td>
+                            <td>Roland Mendel</td>
+                            <td>Austria</td>
+                        </tr>
+                        <tr>
+                            <td>Island Trading</td>
+                            <td>Helen Bennett</td>
+                            <td>UK</td>
+                        </tr>
+    
+                    </table>
+    
+            </div>
+
+        </div>
+
+    </div>
+    <script>
+        closeSidebar();
+        function openSidebar() {
+          document.getElementById("mySidebar").style.display = "block";
+        }
+        
+        function closeSidebar() {
+          document.getElementById("mySidebar").style.display = "none";
+        }
+        </script>
+    <script src="fontawesome-free-5.15.4-web/js/all.min.js"></script>
+</body>
+
+</html>
