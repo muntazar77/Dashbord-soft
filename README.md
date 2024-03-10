@@ -1,4 +1,4 @@
-### Dashbord soft (html + css)
+### Dashbord soft (html + css + js)
 
 
-![Screenshot 2022-07-25 at 09-34-47 Dashbord](https://user-images.githubusercontent.com/33977793/205436913-7062f5e8-b3e6-4293-82ff-afa67c2ed607.png)
+![Screenshot from 2024-03-10 12-21-06](https://github.com/muntazar77/Dashbord-soft/assets/127090047/76a5e403-3395-4929-a38b-8c15850812f3)
