@@ -1,6 +1,6 @@
 ### Dashbord with neumorphic-design (soft design) by useing html + css + js
 
-Live preview: https://muntazar77.github.io/Dashbord-soft/
+
 
 
 ![Screenshot 2024-03-10 at 17-13-37 Dashbord](https://github.com/muntazar77/Dashbord-soft/assets/127090047/1062e38e-2e73-425e-aae0-273b2510f195)
